@@ -10,7 +10,7 @@ function Article({ date, title, image }) {
 
       <img src={image} alt={title} />
 
-      <p>
+      <p className="content">
         Cray ipsum, dolor sit amet consectetur adipisicing elit.
         Repellat quidem deserunt nemo dignissimos fuga veniam
         inventore eligendi magnam aperiam odit mollitia cupiditate

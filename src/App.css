@@ -82,14 +82,13 @@ article p {
   line-height: 1.8;
 }
 
-article p::first-letter {
+.content::first-letter {
   float: left;
   color: lightgray;
   font-size: 6rem;
-  line-height: .8;
-  padding-right: .5rem;
+  line-height: 0.8;
+  padding-right: 0.5rem;
 }
-
 .continue {
   display: block;
   text-align: right;
